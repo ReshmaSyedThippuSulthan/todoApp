@@ -17,7 +17,7 @@ class TodoAdedde extends ChangeNotifier {
     List<Todo> tempincompletedTodo =[];
     todoList = await TodoApi.getTodo();
     for (Todo todo in todoList){
-      // tabbar using a check and un check
+      // tabbar using a check and un check.....
     if (todo .isDone){
       tempcompletedTodo.add(todo);
     }
